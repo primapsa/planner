@@ -1,1 +1,1 @@
-const difference = 45 - 32;
+const difference = 8 * 10;
