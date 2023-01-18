@@ -1,1 +1,2 @@
-var = 9;
+var first = "s";
+var second = "p";
