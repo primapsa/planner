@@ -1,8 +1,8 @@
-let a = 5;
-let b = 12;
-let c = 4.6;
+let a = 48;
+let b = 108;
+let c = 33;
 
 // Only change code below this line
-a *= 5;
-b *= 3;
-c *= 10;
+a /= a;
+b /= b;
+c /= c;
