@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315bc898-d521-4e92-946d-f2c12fb91665" name="Changes" comment="feat: add functionality">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="315bc898-d521-4e92-946d-f2c12fb91665" name="Changes" comment="refactor: api key">
+      <change afterPath="$PROJECT_DIR$/src/features/Login/Login.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/todolists-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolists-api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,14 +185,7 @@
       <workItem from="1685623051537" duration="44000" />
       <workItem from="1688638886260" duration="7274000" />
       <workItem from="1688738789041" duration="5937000" />
-      <workItem from="1688809432549" duration="6871000" />
-    </task>
-    <task id="LOCAL-00008" summary="feat: apply MU">
-      <created>1679585955526</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1679585955526</updated>
+      <workItem from="1688809432549" duration="7045000" />
     </task>
     <task id="LOCAL-00009" summary="feat: apply MU">
       <created>1679585964863</created>
@@ -531,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688819756000</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="refactor: api key">
+      <created>1688820606935</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1688820606935</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,10 +569,10 @@
     <MESSAGE value="feat: apply middlewear" />
     <MESSAGE value="feat: add todolist case" />
     <MESSAGE value="feat: add thunk" />
-    <MESSAGE value="refactor: api key" />
     <MESSAGE value="init: start l 15" />
     <MESSAGE value="refactor: move files" />
     <MESSAGE value="feat: add functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add functionality" />
+    <MESSAGE value="refactor: api key" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: api key" />
   </component>
 </project>
