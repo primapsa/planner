@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315bc898-d521-4e92-946d-f2c12fb91665" name="Changes" comment="feat: add functionality" />
+    <list default="true" id="315bc898-d521-4e92-946d-f2c12fb91665" name="Changes" comment="feat: add functionality">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/todolists-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolists-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +186,7 @@
       <workItem from="1685623051537" duration="44000" />
       <workItem from="1688638886260" duration="7274000" />
       <workItem from="1688738789041" duration="5937000" />
-      <workItem from="1688809432549" duration="6243000" />
+      <workItem from="1688809432549" duration="6871000" />
     </task>
     <task id="LOCAL-00008" summary="feat: apply MU">
       <created>1679585955526</created>
