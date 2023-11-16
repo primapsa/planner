@@ -3,6 +3,7 @@ import Snackbar from '@mui/material/Snackbar';
 import MuiAlert, {AlertProps} from '@mui/material/Alert';
 import {setAppErrorAC} from '../../app/app-reducer';
 import {useAppDispatch, useAppSelector} from '../../app/store';
+import {getAppError} from "../../selectors/selectors";
 
 const Alert = React.forwardRef<HTMLDivElement, AlertProps>(function Alert(
     props, ref) {
@@ -12,7 +13,7 @@ const Alert = React.forwardRef<HTMLDivElement, AlertProps>(function Alert(
 
 export function ErrorSnackbar() {
 
-    const error = useAppSelector<string | null>(state => state.app.error)
+    const error = useAppSelector<string | null>(getAppError)
 
     const dispatch = useAppDispatch();
 
