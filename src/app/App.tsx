@@ -11,13 +11,13 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import LinearProgress from '@mui/material/LinearProgress';
 import {Menu} from '@mui/icons-material';
-import {ErrorSnackbar} from '../components/ErrorSnackbar/ErrorSnackbar'
 import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import {Login} from "../features/Login/Login";
 import {useDispatch, useSelector} from "react-redux";
 import {CircularProgress} from "@mui/material";
 import {userLogout} from "../features/Login/auth-reducer";
 import {getAppInitialized, getAuthLogin, getState} from "../selectors/selectors";
+import {ErrorSnackbar} from "../components/ErrorSnackBar/ErrorSnackBar";
 
 
 function App() {
