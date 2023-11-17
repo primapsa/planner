@@ -1,0 +1,26 @@
+
+.App {
+    background-color: #f2f2f2;
+    height: 100vh;
+}
+
+.App > div {
+    margin-right: 50px;
+}
+
+.error {
+    border: red 1px solid;
+}
+
+.error-message {
+    color: red;
+}
+
+.active-filter {
+    background-color: aquamarine;
+}
+
+.is-done {
+    opacity: 0.5;
+}
+
